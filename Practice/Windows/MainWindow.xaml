@@ -3,7 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:Practice"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
@@ -34,8 +33,8 @@
                                 </TextBlock.Text>
                             </TextBlock>
                             <StackPanel Orientation = "Horizontal">
-                                <materialDesign:PackIcon Kind = "Edit" Width = "25" Height = "25" x:Name = "EditButton" PreviewMouseDown = "EditButton_PreviewMouseDown"/>
-                                <materialDesign:PackIcon Kind = "Delete" Width = "25" Height = "25" x:Name = "DeleteButton" PreviewMouseDown = "DeleteButton_PreviewMouseDown"/>
+                                <Button Background="#AA87B1" Width = "25" Height = "25" x:Name = "EditButton" PreviewMouseDown = "EditButton_PreviewMouseDown"/>
+                                <Button Background="#AA87B1" Width = "25" Height = "25" x:Name = "DeleteButton" PreviewMouseDown = "DeleteButton_PreviewMouseDown"/>
                             </StackPanel>
                         </StackPanel>
                     </Border>

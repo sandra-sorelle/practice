@@ -3,7 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:Practice.Windows"
         mc:Ignorable="d"
         Title="EditWindows" Loaded="Window_Loaded" Height="450" Width="800">
@@ -27,7 +26,7 @@
                         <TextBox Height = "25" Margin = "2" Text = "{Binding ClientPhone}"/>
                     </StackPanel>
                 </StackPanel>
-                <Button Background="#AA87B1" Foreground="#2C2962" Content = "Сохранить" Margin = "0 20 0 0" x:Name = "SaveButton" Click="SaveButton_Click"/>
+                <Button Background="#AA87B1" Foreground="#2C2962" Width="150" Height="25" Content = "Сохранить" Margin = "0 20 0 0" x:Name = "SaveButton" Click="SaveButton_Click"/>
             </StackPanel>
         </Border>
     </Grid>

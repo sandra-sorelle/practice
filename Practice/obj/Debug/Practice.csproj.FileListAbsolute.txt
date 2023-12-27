@@ -20,15 +20,9 @@ C:\Users\mamok\source\repos\Practice\Practice\bin\Debug\EntityFramework.xml
 C:\Users\mamok\source\repos\Practice\Practice\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\mamok\source\repos\Practice\Practice\bin\Debug\ru\EntityFramework.resources.dll
 C:\Users\mamok\source\repos\Practice\Practice\obj\Debug\Practice.csproj.CopyComplete
-C:\Users\mamok\source\repos\Practice\Practice\bin\Debug\MaterialDesignColors.dll
-C:\Users\mamok\source\repos\Practice\Practice\bin\Debug\MaterialDesignThemes.Wpf.dll
 C:\Users\mamok\source\repos\Practice\Practice\bin\Debug\Microsoft.Xaml.Behaviors.dll
-C:\Users\mamok\source\repos\Practice\Practice\bin\Debug\MaterialDesignColors.pdb
-C:\Users\mamok\source\repos\Practice\Practice\bin\Debug\MaterialDesignThemes.Wpf.pdb
-C:\Users\mamok\source\repos\Practice\Practice\bin\Debug\MaterialDesignThemes.Wpf.xml
 C:\Users\mamok\source\repos\Practice\Practice\bin\Debug\Microsoft.Xaml.Behaviors.pdb
 C:\Users\mamok\source\repos\Practice\Practice\bin\Debug\Microsoft.Xaml.Behaviors.xml
 C:\Users\mamok\source\repos\Practice\Practice\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
-C:\Users\mamok\source\repos\Practice\Practice\obj\Debug\App.baml
 C:\Users\mamok\source\repos\Practice\Practice\obj\Debug\Windows\EditWindows.g.cs
 C:\Users\mamok\source\repos\Practice\Practice\obj\Debug\Windows\EditWindows.baml
