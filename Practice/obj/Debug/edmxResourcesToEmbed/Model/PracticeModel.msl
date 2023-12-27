@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище PracticeModelContainer" CdmEntityContainer="PracticeEntities">
+    <EntitySetMapping Name="Client">
+      <EntityTypeMapping TypeName="PracticeModel.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+          <ScalarProperty Name="ClientSurname" ColumnName="ClientSurname" />
+          <ScalarProperty Name="ClientName" ColumnName="ClientName" />
+          <ScalarProperty Name="ClientPatronymic" ColumnName="ClientPatronymic" />
+          <ScalarProperty Name="ClientPhone" ColumnName="ClientPhone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
