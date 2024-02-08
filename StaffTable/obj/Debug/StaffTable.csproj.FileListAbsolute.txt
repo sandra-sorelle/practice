@@ -1,0 +1,301 @@
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.AssemblyReference.cache
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\MainWindow.g.cs
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\Pages\AuthPage.g.cs
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\App.g.cs
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable_Content.g.cs
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable_MarkupCompile.cache
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable_MarkupCompile.lref
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\Pages\StaffTablesPage.g.cs
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\bin\Debug\StaffTable.exe.config
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\bin\Debug\StaffTable.exe
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\bin\Debug\StaffTable.pdb
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\bin\Debug\EntityFramework.dll
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\bin\Debug\EntityFramework.SqlServer.dll
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\bin\Debug\EntityFramework.xml
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\bin\Debug\EntityFramework.SqlServer.xml
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\bin\Debug\ru\EntityFramework.resources.dll
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\App.baml
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\MainWindow.baml
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\Pages\AuthPage.baml
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\Pages\StaffTablesPage.baml
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.g.resources
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.Properties.Resources.resources
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.GenerateResource.cache
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.CoreCompileInputs.cache
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.CopyComplete
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.exe
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.pdb
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\Pages\StaffTablePage.g.cs
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\Pages\StaffTablePage.baml
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.SuggestedBindingRedirects.cache
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\bin\Debug\DocumentFormat.OpenXml.dll
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\bin\Debug\DocumentFormat.OpenXml.xml
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.ResolveComReference.cache
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\Pages\AddTablePage.g.cs
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\Pages\AddUnitsPage.g.cs
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\Pages\AddTablePage.baml
+D:\college\fourcourse\уп\3 задание\StaffTable\StaffTable\obj\Debug\Pages\AddUnitsPage.baml
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\StaffTable.exe.config
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\StaffTable.exe
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\StaffTable.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\EntityFramework.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\EntityFramework.xml
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.AssemblyReference.cache
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.ResolveComReference.cache
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\MainWindow.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\Pages\AddTablePage.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\Pages\AddUnitsPage.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\Pages\AuthPage.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\Pages\StaffTablePage.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\Pages\StaffTablesPage.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\App.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable_Content.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable_MarkupCompile.cache
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable_MarkupCompile.lref
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\App.baml
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\MainWindow.baml
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\Pages\AddTablePage.baml
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\Pages\AddUnitsPage.baml
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\Pages\AuthPage.baml
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\Pages\StaffTablePage.baml
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\Pages\StaffTablesPage.baml
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.g.resources
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.Properties.Resources.resources
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.GenerateResource.cache
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.CoreCompileInputs.cache
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.CopyComplete
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.exe
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.SuggestedBindingRedirects.cache
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\obj\Debug\StaffTable.exe.config
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\Roboto-Black.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\Roboto-BlackItalic.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\Roboto-Bold.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\Roboto-BoldItalic.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\Roboto-Italic.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\Roboto-Light.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\Roboto-LightItalic.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\Roboto-Medium.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\Roboto-MediumItalic.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\Roboto-Regular.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\Roboto-Thin.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\Roboto-ThinItalic.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\RobotoCondensed-Bold.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\RobotoCondensed-BoldItalic.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\RobotoCondensed-Italic.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\RobotoCondensed-Light.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\RobotoCondensed-LightItalic.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Roboto\RobotoCondensed-Regular.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Noto\NotoSans-Bold.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Noto\NotoSans-BoldItalic.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Noto\NotoSans-Italic.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Resources\Noto\NotoSans-Regular.ttf
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\ControlzEx.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\MahApps.Metro.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\MaterialDesignColors.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\MaterialDesignDemo.exe
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.MahApps.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\System.CommandLine.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\BluwolfIcons.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\CommunityToolkit.Mvvm.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\ShowMeTheXAML.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\System.Memory.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\System.Buffers.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\MaterialDesignDemo.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\MaterialDesignDemo.exe.config
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\ControlzEx.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\ControlzEx.xml
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\MahApps.Metro.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\MahApps.Metro.xml
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\MaterialDesignColors.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.MahApps.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\cs\System.CommandLine.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\de\System.CommandLine.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\es\System.CommandLine.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\fr\System.CommandLine.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\it\System.CommandLine.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\ja\System.CommandLine.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\ko\System.CommandLine.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\pl\System.CommandLine.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\pt-BR\System.CommandLine.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\ru\System.CommandLine.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\tr\System.CommandLine.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\zh-Hans\System.CommandLine.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\3 задание\StaffTable\StaffTable\bin\Debug\zh-Hant\System.CommandLine.resources.dll
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.ResolveComReference.cache
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\MainWindow.g.cs
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\Pages\AddTablePage.g.cs
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\Pages\AddUnitsPage.g.cs
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\Pages\AuthPage.g.cs
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\Pages\StaffTablePage.g.cs
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\Pages\StaffTablesPage.g.cs
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\App.g.cs
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\StaffTable_Content.g.cs
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\StaffTable_MarkupCompile.cache
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\StaffTable_MarkupCompile.lref
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\StaffTable.exe
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\StaffTable.pdb
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\StaffTable.exe.config
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\StaffTable.exe
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\StaffTable.pdb
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\ControlzEx.dll
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\DocumentFormat.OpenXml.dll
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\EntityFramework.dll
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\EntityFramework.SqlServer.dll
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\MahApps.Metro.dll
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\MaterialDesignColors.dll
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.MahApps.dll
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\ControlzEx.pdb
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\ControlzEx.xml
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\DocumentFormat.OpenXml.xml
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\EntityFramework.xml
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\EntityFramework.SqlServer.xml
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\MahApps.Metro.pdb
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\MahApps.Metro.xml
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\MaterialDesignColors.pdb
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.MahApps.pdb
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\ru\EntityFramework.resources.dll
+D:\college\fourcourse\уп\StaffTable\StaffTable\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\App.baml
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\MainWindow.baml
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\Pages\AddTablePage.baml
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\Pages\AddUnitsPage.baml
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\Pages\AuthPage.baml
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\Pages\StaffTablePage.baml
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\Pages\StaffTablesPage.baml
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\StaffTable.g.resources
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\StaffTable.Properties.Resources.resources
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.GenerateResource.cache
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.CoreCompileInputs.cache
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.CopyComplete
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.AssemblyReference.cache
+D:\college\fourcourse\уп\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.SuggestedBindingRedirects.cache
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\StaffTable.exe.config
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\StaffTable.exe
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\StaffTable.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\ControlzEx.dll
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\EntityFramework.dll
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\MahApps.Metro.dll
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\MaterialDesignColors.dll
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.MahApps.dll
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\ControlzEx.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\ControlzEx.xml
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\EntityFramework.xml
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\MahApps.Metro.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\MahApps.Metro.xml
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\MaterialDesignColors.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.MahApps.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.AssemblyReference.cache
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.ResolveComReference.cache
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\MainWindow.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\Pages\AddTablePage.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\Pages\AddUnitsPage.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\Pages\AuthPage.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\Pages\StaffTablePage.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\Pages\StaffTablesPage.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\App.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\StaffTable_Content.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\StaffTable_MarkupCompile.cache
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\StaffTable_MarkupCompile.lref
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\App.baml
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\MainWindow.baml
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\Pages\AddTablePage.baml
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\Pages\AddUnitsPage.baml
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\Pages\AuthPage.baml
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\Pages\StaffTablePage.baml
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\Pages\StaffTablesPage.baml
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\StaffTable.g.resources
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\StaffTable.Properties.Resources.resources
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.GenerateResource.cache
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.CoreCompileInputs.cache
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.CopyComplete
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\StaffTable.exe
+C:\Users\mamok\OneDrive\Рабочий стол\StaffTable\StaffTable\obj\Debug\StaffTable.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\StaffTable.exe.config
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\StaffTable.exe
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\StaffTable.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\ControlzEx.dll
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\EntityFramework.dll
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\MahApps.Metro.dll
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\MaterialDesignColors.dll
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.MahApps.dll
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\ControlzEx.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\ControlzEx.xml
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\EntityFramework.xml
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\MahApps.Metro.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\MahApps.Metro.xml
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\MaterialDesignColors.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.MahApps.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.AssemblyReference.cache
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.ResolveComReference.cache
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\MainWindow.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\Pages\AddTablePage.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\Pages\AddUnitsPage.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\Pages\AuthPage.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\Pages\StaffTablePage.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\Pages\StaffTablesPage.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\App.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\StaffTable_Content.g.cs
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\StaffTable_MarkupCompile.cache
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\StaffTable_MarkupCompile.lref
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\App.baml
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\MainWindow.baml
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\Pages\AddTablePage.baml
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\Pages\AddUnitsPage.baml
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\Pages\AuthPage.baml
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\Pages\StaffTablePage.baml
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\Pages\StaffTablesPage.baml
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\StaffTable.g.resources
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\StaffTable.Properties.Resources.resources
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.GenerateResource.cache
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.CoreCompileInputs.cache
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\StaffTable.csproj.CopyComplete
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\StaffTable.exe
+C:\Users\mamok\OneDrive\Рабочий стол\Практика 0.2\StaffTable\StaffTable\obj\Debug\StaffTable.pdb

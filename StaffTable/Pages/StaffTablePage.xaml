@@ -1,0 +1,73 @@
+﻿<Page x:Class="StaffTable.Pages.StaffTablePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:StaffTable.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="950" d:DesignWidth="1200"
+      Title="Штатное расписание">
+
+    <Grid>
+        <StackPanel Height="900" Width="1300" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
+            <TextBlock Foreground="#453977" FontFamily="Montserrat Alternates" x:Name="OrganizationTextBlock" HorizontalAlignment="Center" >Наименование организации</TextBlock>
+
+            <TextBlock Foreground="#453977" FontFamily="Montserrat Alternates" FontWeight="Bold" HorizontalAlignment="Center" Margin="0, 15, 0,0">Штатное расписание</TextBlock>
+
+            <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" x:Name="NumberTextBlock" HorizontalAlignment="Right" Margin="0, 15, 5,0">Номер документа: </TextBlock>
+            <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" x:Name="DateSostTextBlock" HorizontalAlignment="Right" Margin="0, 0, 5,0">Дата составления: </TextBlock>
+            <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" x:Name="DateStartTextBlock" HorizontalAlignment="Right" Margin="0, 0, 5,0">УТВЕРЖДЕНО Приказом организации от </TextBlock>
+            <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" x:Name="AllStateTextBlock" HorizontalAlignment="Right" Margin="0, 0, 5,0">Штат в количестве </TextBlock>
+            <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" x:Name="PeriodTextBlock" HorizontalAlignment="Right" Margin="0, 0, 5, 10">на период </TextBlock>
+            <DataGrid  Foreground="#453977" Margin="5" x:Name="TableDataGrid" AutoGenerateColumns="False" IsReadOnly="True" Width="1300">
+                <DataGrid.Columns>
+                    <DataGridTextColumn FontFamily="Montserrat Alternates" Header="Структурное подразделение" Binding="{Binding StructualDivisionName}"></DataGridTextColumn>
+                    <DataGridTextColumn FontFamily="Montserrat Alternates" Header="Должность" Width="Auto" Binding="{Binding PostName}"></DataGridTextColumn>
+                    <DataGridTextColumn FontFamily="Montserrat Alternates" Header="Кол-во штатных единиц" Width="Auto" Binding="{Binding StaffUnits}"></DataGridTextColumn>
+                    <DataGridTextColumn FontFamily="Montserrat Alternates" Header="Тарифная ставка" Width="Auto" Binding="{Binding FormSalary}"></DataGridTextColumn>
+                    <DataGridTextColumn FontFamily="Montserrat Alternates" Header="Всего в месяц" Binding="{Binding SumOfSalary}"></DataGridTextColumn>
+                    <DataGridTextColumn FontFamily="Montserrat Alternates" Header="Примечания" Width="Auto" Binding="{Binding NotesFormat}"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" >Итого: </TextBlock>
+            <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" Text="Штатных единиц: " x:Name="SumOfUnitsText"></TextBlock>
+            <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" Text="Всего в месяц: " x:Name="SumOfSalaryText" Margin="0,0,0,10"></TextBlock>
+
+            <StackPanel Orientation="Horizontal" x:Name="RukSignedStackPanel">
+                <TextBlock Foreground="#453977"  FontFamily="Montserrat Alternates" Text="Руководитель кадровой службы" FontWeight="Bold" Margin="0, 0, 10,0"></TextBlock>
+                <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+                    <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" x:Name="PostText" TextDecorations="Underline"></TextBlock>
+                    <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" Text="(Должность)" FontSize="10" TextDecorations="Underline"></TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="30,0,0,10">
+                    <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" x:Name="SignText" TextDecorations="Underline"></TextBlock>
+                    <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" Text="(Подпись)" FontSize="10" TextDecorations="Underline"></TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="30,0,0,10">
+                    <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" x:Name="ShifrSignText" TextDecorations="Underline"></TextBlock>
+                    <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" Text="(Расшифровка подписи)" FontSize="10" TextDecorations="Underline"></TextBlock>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" x:Name="BuxSignedStackPanel">
+                <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" Text="Главный бухгалтер" FontWeight="Bold" Margin="0, 0, 10,0"></TextBlock>
+               
+                <StackPanel Orientation="Vertical" Margin="30,0,0,10">
+                    <TextBlock   Foreground="#453977" FontFamily="Montserrat Alternates" x:Name="BuxSignText" TextDecorations="Underline"></TextBlock>
+                    <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" Text="(Подпись)" FontSize="10" TextDecorations="Underline"></TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="30,0,0,10">
+                    <TextBlock Foreground="#453977"  FontFamily="Montserrat Alternates" x:Name="BuxShifrSignText" TextDecorations="Underline"></TextBlock>
+                    <TextBlock  Foreground="#453977" FontFamily="Montserrat Alternates" Text="(Расшифровка подписи)" FontSize="10" TextDecorations="Underline"></TextBlock>
+                </StackPanel>
+            </StackPanel>
+
+            
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+            <Button x:Name="OutputButton"  VerticalAlignment="Bottom" Content="Печать" IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Style="{StaticResource MaterialDesignFlatDarkBgButton}" Height="40" Width="170" Margin="10" Foreground="#F6F7FD" FontFamily="Montserrat Alternates" Background="#453977" FontWeight="DemiBold" FontSize="18" Click="OutputButton_Click" Visibility="Collapsed"></Button>
+            <CheckBox FontFamily="Montserrat Alternates" Foreground="#453977" VerticalAlignment="Center" Margin="5" BorderBrush="#453977" x:Name="SignCheckBox" Checked="SignCheckBox_Checked" ></CheckBox>
+            <Button x:Name="BackButton" Click="BackButton_Click"  VerticalAlignment="Bottom" Content="Назад" IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Style="{StaticResource MaterialDesignFlatDarkBgButton}" Height="40" Width="170" Margin="10" Foreground="#F6F7FD" FontFamily="Montserrat Alternates" Background="#453977" FontWeight="DemiBold" FontSize="18"></Button>
+        </StackPanel>
+        
+    </Grid>
+</Page>
