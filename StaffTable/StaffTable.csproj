@@ -295,6 +295,7 @@
       <DependentUpon>StaffModel.edmx</DependentUpon>
       <LastGenOutput>StaffModel.cs</LastGenOutput>
     </Content>
+    <Resource Include="Version\Version.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets')" />
