@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StaffingTableModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <ComplexType Name="getlinesinTable_Result">
+    <Property Name="StructualDivisionID" Type="Int32" />
+    <Property Name="StructualDivisionName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PostID" Type="Int32" Nullable="false" />
+    <Property Name="PostName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StaffUnits" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="SalarySize" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Notes" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+  </ComplexType>
+  <EntityType Name="Allowance">
+    <Key>
+      <PropertyRef Name="AllowanceID" />
+    </Key>
+    <Property Name="AllowanceID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AllowanceName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PostID" Type="Int32" />
+    <NavigationProperty Name="Post" Relationship="Self.FK_Allowance_Post" FromRole="Allowance" ToRole="Post" />
+    <NavigationProperty Name="AllowanceSize" Relationship="Self.FK_AllowanceSize_Allowance" FromRole="Allowance" ToRole="AllowanceSize" />
+  </EntityType>
+  <EntityType Name="AllowanceSize">
+    <Key>
+      <PropertyRef Name="AlllowanceSizeID" />
+    </Key>
+    <Property Name="AlllowanceSizeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AllowanceDate" Type="DateTime" Precision="3" />
+    <Property Name="AllowanceSize1" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="AllowanceID" Type="Int32" />
+    <NavigationProperty Name="Allowance" Relationship="Self.FK_AllowanceSize_Allowance" FromRole="AllowanceSize" ToRole="Allowance" />
+  </EntityType>
+  <EntityType Name="Organization">
+    <Key>
+      <PropertyRef Name="OrganizationID" />
+    </Key>
+    <Property Name="OrganizationID" Type="Int32" Nullable="false" />
+    <Property Name="OrganizationFullName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="OrganizationEnglishName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="OrganizationAbbreviatedName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Post">
+    <Key>
+      <PropertyRef Name="PostID" />
+    </Key>
+    <Property Name="PostID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PostName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StructualDivisionID" Type="Int32" />
+    <NavigationProperty Name="Allowance" Relationship="Self.FK_Allowance_Post" FromRole="Post" ToRole="Allowance" />
+    <NavigationProperty Name="StructualDivision" Relationship="Self.FK_Post_StructualDivision" FromRole="Post" ToRole="StructualDivision" />
+    <NavigationProperty Name="Salary" Relationship="Self.FK_Salary_Post" FromRole="Post" ToRole="Salary" />
+    <NavigationProperty Name="StaffTableTabularPart" Relationship="Self.FK_StaffTableTabularPart_Post" FromRole="Post" ToRole="StaffTableTabularPart" />
+    <NavigationProperty Name="Worker" Relationship="Self.FK_Worker_Post" FromRole="Post" ToRole="Worker" />
+  </EntityType>
+  <EntityType Name="Salary">
+    <Key>
+      <PropertyRef Name="SalaryID" />
+    </Key>
+    <Property Name="SalaryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SalaryDate" Type="DateTime" Precision="3" />
+    <Property Name="SalarySize" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PostID" Type="Int32" />
+    <NavigationProperty Name="Post" Relationship="Self.FK_Salary_Post" FromRole="Salary" ToRole="Post" />
+  </EntityType>
+  <EntityType Name="Signature">
+    <Key>
+      <PropertyRef Name="SignatureID" />
+    </Key>
+    <Property Name="SignatureID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Line" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SignatureTabularPart" Relationship="Self.FK_SignatureTabularPart_Signature" FromRole="Signature" ToRole="SignatureTabularPart" />
+    <NavigationProperty Name="StaffTable" Relationship="Self.FK_StaffTable_Signature" FromRole="Signature" ToRole="StaffTable" />
+  </EntityType>
+  <EntityType Name="SignatureTabularPart">
+    <Key>
+      <PropertyRef Name="Nline" />
+    </Key>
+    <Property Name="Nline" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SignatureID" Type="Int32" />
+    <Property Name="WorkerID" Type="Int32" />
+    <NavigationProperty Name="Signature" Relationship="Self.FK_SignatureTabularPart_Signature" FromRole="SignatureTabularPart" ToRole="Signature" />
+    <NavigationProperty Name="Worker" Relationship="Self.FK_SignatureTabularPart_Worker" FromRole="SignatureTabularPart" ToRole="Worker" />
+  </EntityType>
+  <EntityType Name="StaffTable">
+    <Key>
+      <PropertyRef Name="StaffTableNumber" />
+    </Key>
+    <Property Name="StaffTableNumber" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StaffTableDateStart" Type="DateTime" Precision="3" />
+    <Property Name="StaffTableDateEnd" Type="DateTime" Precision="3" />
+    <Property Name="StaffTablePeriod" Type="Int32" />
+    <Property Name="SignatureID" Type="Int32" />
+    <NavigationProperty Name="Signature" Relationship="Self.FK_StaffTable_Signature" FromRole="StaffTable" ToRole="Signature" />
+    <NavigationProperty Name="StaffTableTabularPart" Relationship="Self.FK_StaffTableTabularPart_StaffTable" FromRole="StaffTable" ToRole="StaffTableTabularPart" />
+  </EntityType>
+  <EntityType Name="StaffTableTabularPart">
+    <Key>
+      <PropertyRef Name="Nline" />
+    </Key>
+    <Property Name="Nline" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StaffTableNumber" Type="Int32" />
+    <Property Name="PostID" Type="Int32" />
+    <Property Name="StaffUnits" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Notes" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Post" Relationship="Self.FK_StaffTableTabularPart_Post" FromRole="StaffTableTabularPart" ToRole="Post" />
+    <NavigationProperty Name="StaffTable" Relationship="Self.FK_StaffTableTabularPart_StaffTable" FromRole="StaffTableTabularPart" ToRole="StaffTable" />
+  </EntityType>
+  <EntityType Name="StructualDivision">
+    <Key>
+      <PropertyRef Name="StructualDivisionID" />
+    </Key>
+    <Property Name="StructualDivisionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StructualDivisionName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Post" Relationship="Self.FK_Post_StructualDivision" FromRole="StructualDivision" ToRole="Post" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Worker">
+    <Key>
+      <PropertyRef Name="WorkerID" />
+    </Key>
+    <Property Name="WorkerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="WorkerSurname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="WorkerName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="WorkerPatronimyc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PostID" Type="Int32" />
+    <Property Name="WorkerLogin" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="WorkerPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Post" Relationship="Self.FK_Worker_Post" FromRole="Worker" ToRole="Post" />
+    <NavigationProperty Name="SignatureTabularPart" Relationship="Self.FK_SignatureTabularPart_Worker" FromRole="Worker" ToRole="SignatureTabularPart" />
+  </EntityType>
+  <EntityType Name="StaffTable1">
+    <Key>
+      <PropertyRef Name="StaffTableNumber" />
+    </Key>
+    <Property Name="StaffTableNumber" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StaffTableDateStart" Type="DateTime" Precision="3" />
+    <Property Name="StaffTableDateEnd" Type="DateTime" Precision="3" />
+    <Property Name="StaffTablePeriod" Type="Int32" />
+    <Property Name="SignatureID" Type="Int32" />
+    <Property Name="isSigned" Type="Boolean" />
+  </EntityType>
+  <Association Name="FK_Allowance_Post">
+    <End Role="Post" Type="Self.Post" Multiplicity="0..1" />
+    <End Role="Allowance" Type="Self.Allowance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Post">
+        <PropertyRef Name="PostID" />
+      </Principal>
+      <Dependent Role="Allowance">
+        <PropertyRef Name="PostID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AllowanceSize_Allowance">
+    <End Role="Allowance" Type="Self.Allowance" Multiplicity="0..1" />
+    <End Role="AllowanceSize" Type="Self.AllowanceSize" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Allowance">
+        <PropertyRef Name="AllowanceID" />
+      </Principal>
+      <Dependent Role="AllowanceSize">
+        <PropertyRef Name="AllowanceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Post_StructualDivision">
+    <End Role="StructualDivision" Type="Self.StructualDivision" Multiplicity="0..1" />
+    <End Role="Post" Type="Self.Post" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StructualDivision">
+        <PropertyRef Name="StructualDivisionID" />
+      </Principal>
+      <Dependent Role="Post">
+        <PropertyRef Name="StructualDivisionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Salary_Post">
+    <End Role="Post" Type="Self.Post" Multiplicity="0..1" />
+    <End Role="Salary" Type="Self.Salary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Post">
+        <PropertyRef Name="PostID" />
+      </Principal>
+      <Dependent Role="Salary">
+        <PropertyRef Name="PostID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StaffTableTabularPart_Post">
+    <End Role="Post" Type="Self.Post" Multiplicity="0..1" />
+    <End Role="StaffTableTabularPart" Type="Self.StaffTableTabularPart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Post">
+        <PropertyRef Name="PostID" />
+      </Principal>
+      <Dependent Role="StaffTableTabularPart">
+        <PropertyRef Name="PostID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Worker_Post">
+    <End Role="Post" Type="Self.Post" Multiplicity="0..1" />
+    <End Role="Worker" Type="Self.Worker" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Post">
+        <PropertyRef Name="PostID" />
+      </Principal>
+      <Dependent Role="Worker">
+        <PropertyRef Name="PostID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SignatureTabularPart_Signature">
+    <End Role="Signature" Type="Self.Signature" Multiplicity="0..1" />
+    <End Role="SignatureTabularPart" Type="Self.SignatureTabularPart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Signature">
+        <PropertyRef Name="SignatureID" />
+      </Principal>
+      <Dependent Role="SignatureTabularPart">
+        <PropertyRef Name="SignatureID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StaffTable_Signature">
+    <End Role="Signature" Type="Self.Signature" Multiplicity="0..1" />
+    <End Role="StaffTable" Type="Self.StaffTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Signature">
+        <PropertyRef Name="SignatureID" />
+      </Principal>
+      <Dependent Role="StaffTable">
+        <PropertyRef Name="SignatureID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SignatureTabularPart_Worker">
+    <End Role="Worker" Type="Self.Worker" Multiplicity="0..1" />
+    <End Role="SignatureTabularPart" Type="Self.SignatureTabularPart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Worker">
+        <PropertyRef Name="WorkerID" />
+      </Principal>
+      <Dependent Role="SignatureTabularPart">
+        <PropertyRef Name="WorkerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StaffTableTabularPart_StaffTable">
+    <End Role="StaffTable" Type="Self.StaffTable" Multiplicity="0..1" />
+    <End Role="StaffTableTabularPart" Type="Self.StaffTableTabularPart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StaffTable">
+        <PropertyRef Name="StaffTableNumber" />
+      </Principal>
+      <Dependent Role="StaffTableTabularPart">
+        <PropertyRef Name="StaffTableNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StaffingTableEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Allowance" EntityType="Self.Allowance" />
+    <EntitySet Name="AllowanceSize" EntityType="Self.AllowanceSize" />
+    <EntitySet Name="Organization" EntityType="Self.Organization" />
+    <EntitySet Name="Post" EntityType="Self.Post" />
+    <EntitySet Name="Salary" EntityType="Self.Salary" />
+    <EntitySet Name="Signature" EntityType="Self.Signature" />
+    <EntitySet Name="SignatureTabularPart" EntityType="Self.SignatureTabularPart" />
+    <EntitySet Name="StaffTable" EntityType="Self.StaffTable" />
+    <EntitySet Name="StaffTableTabularPart" EntityType="Self.StaffTableTabularPart" />
+    <EntitySet Name="StructualDivision" EntityType="Self.StructualDivision" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Worker" EntityType="Self.Worker" />
+    <EntitySet Name="StaffTable1" EntityType="Self.StaffTable1" />
+    <AssociationSet Name="FK_Allowance_Post" Association="Self.FK_Allowance_Post">
+      <End Role="Post" EntitySet="Post" />
+      <End Role="Allowance" EntitySet="Allowance" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AllowanceSize_Allowance" Association="Self.FK_AllowanceSize_Allowance">
+      <End Role="Allowance" EntitySet="Allowance" />
+      <End Role="AllowanceSize" EntitySet="AllowanceSize" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Post_StructualDivision" Association="Self.FK_Post_StructualDivision">
+      <End Role="StructualDivision" EntitySet="StructualDivision" />
+      <End Role="Post" EntitySet="Post" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Salary_Post" Association="Self.FK_Salary_Post">
+      <End Role="Post" EntitySet="Post" />
+      <End Role="Salary" EntitySet="Salary" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StaffTableTabularPart_Post" Association="Self.FK_StaffTableTabularPart_Post">
+      <End Role="Post" EntitySet="Post" />
+      <End Role="StaffTableTabularPart" EntitySet="StaffTableTabularPart" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Worker_Post" Association="Self.FK_Worker_Post">
+      <End Role="Post" EntitySet="Post" />
+      <End Role="Worker" EntitySet="Worker" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SignatureTabularPart_Signature" Association="Self.FK_SignatureTabularPart_Signature">
+      <End Role="Signature" EntitySet="Signature" />
+      <End Role="SignatureTabularPart" EntitySet="SignatureTabularPart" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StaffTable_Signature" Association="Self.FK_StaffTable_Signature">
+      <End Role="Signature" EntitySet="Signature" />
+      <End Role="StaffTable" EntitySet="StaffTable" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SignatureTabularPart_Worker" Association="Self.FK_SignatureTabularPart_Worker">
+      <End Role="Worker" EntitySet="Worker" />
+      <End Role="SignatureTabularPart" EntitySet="SignatureTabularPart" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StaffTableTabularPart_StaffTable" Association="Self.FK_StaffTableTabularPart_StaffTable">
+      <End Role="StaffTable" EntitySet="StaffTable" />
+      <End Role="StaffTableTabularPart" EntitySet="StaffTableTabularPart" />
+    </AssociationSet>
+    <FunctionImport Name="getlinesinTable" IsComposable="true" ReturnType="Collection(StaffingTableModel.getlinesinTable_Result)">
+      <Parameter Name="tableid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AddSign">
+      <Parameter Name="workerid" Mode="In" Type="Int32" />
+      <Parameter Name="tableid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(StaffingTableModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(StaffingTableModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>
