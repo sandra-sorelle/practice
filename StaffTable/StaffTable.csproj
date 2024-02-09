@@ -295,7 +295,6 @@
       <DependentUpon>StaffModel.edmx</DependentUpon>
       <LastGenOutput>StaffModel.cs</LastGenOutput>
     </Content>
-    <Resource Include="Resources\photo_2024-02-08_14-00-11.jpg" />
     <Resource Include="Version\Version.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
